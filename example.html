@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 1 - Training FE</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">TRANG CHỦ</a> |
+            <a href="#">TIN TỨC</a> |
+            <a href="#">GIỚI THIỆU</a> |
+            <a href="#">LIÊN HỆ</a>
+          </nav>
+    </header>
+    <main>
+        <article>
+            <h1>Tin Tức</h1>
+            <section>
+                <h2>TP.HCM: Xe cộ đông đúc trở lại ở nhiều nơi</h2>
+                <img src="img/anh1.png" alt="anh chi tiet 1">
+                <p>Theo ghi nhận của Tuổi Trẻ Online chiều 11-8, một số tuyến đường tại TP.HCM như 
+                Trường Chinh, Âu Cơ (Q.Tân Bình), Nguyễn Kiệm, Phan Văn Trị, Nguyễn Thái Sơn (Q.Gò Vấp), 
+                Nguyễn Tất Thành, Tôn Đức Thắng (Q.4 và Q.1)… có lượng lớn xe cộ lưu thông.</p>
+                <button type="button">Đọc Tiếp</button>
+            </section>
+          
+            <section>
+                <h2>Ngày 11-8: Số ca mắc mới ở TP.HCM và Hà Nội đều giảm</h2>
+                <img src="img/anh2.jpg" alt="hinh anh tiem vaxcin">
+                <p>Theo Bộ Y tế, tính từ 6h đến 18h30 ngày 11-8, trên Hệ thống quốc gia quản lý ca bệnh 
+                <strong>COVID-19</strong> ghi nhận cả nước có <strong>3.964 ca nhiễm mới</strong>, trong đó có 4 ca nhập cảnh và <strong>3.960 
+                ca</strong> ghi nhận trong nước.</p>
+                <button type="button">Đọc Tiếp</button>
+            </section>
+          
+            <section id="summary">
+                <h2>Vì sao các tỉnh chậm tiêm vắc xin?</h2>
+                <img src="img/anh3.jpg" alt="hinh anh tiem vaxcin 2">
+                <p>Ông Nguyễn Thanh Tùng - giám đốc Sở Y tế tỉnh Hậu Giang - giải thích: Do tỉnh thiếu tủ trữ bảo quản 
+                nên chậm trễ trong tiêm vắc xin ngừa <strong>COVID-19</strong>. Vắc xin nhận từ Bộ Y tế phải gửi tại Viện Pasteur TP.HCM
+                và nhận từng đợt, tiêm hết đợt này mới đem về đợt khác. </p>
+                <aside>
+                    <p>Ngoài ra, theo ông Tùng, do triển khai tiêm cho doanh nghiệp, phải đưa lực lượng xuống tận nơi nên nhân lực hạn chế.</p>
+                </aside>
+                <button type="button">Đọc Tiếp</button>
+            </section>
+        </article>
+        <br>
+        <div>
+            <h3>Các phóng sự ngắn</h3>
+            <video width="400" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Trình duyệt không hỗ trợ Video.
+            </video>
+            <video width="400" controls>
+                <source src="img/video1.mp4" type="video/mp4">
+                Trình duyệt không hỗ trợ Video.
+            </video>
+            <video width="400" controls>
+                <source src="img/video1.mp4" type="video/mp4">
+                Trình duyệt không hỗ trợ Video.
+            </video>
+        </div>
+        <div>
+            <br>
+            <hr>
+            <div>
+                <h4>Các bước đăng ký tài khoản</h4>
+                <ol>
+                    <li>Điền thông tin vào form bên dưới</li>
+                    <li>Xác nhận Email</li>
+                    <li>Xác nhận mã OTP</li>
+                </ol>
+            </div>
+            
+            <h4>ĐĂNG KÝ TÀI KHOẢN</h4>
+            <form action="#" method="POST">
+                <label for="username">Họ và tên : </label>
+                <input type="text" name="username"> <br>
+
+                <label for="password">Mật khẩu : </label>
+                <input type="password" name="password"> <br>
+
+                <label for="country">Quê Quán :</label>
+                <select name="country">
+                    <option value="danang">Đà Nẵng</option>
+                    <option value="quangnam">Quảng Nam</option>
+                    <option value="quangtri">Quảng Trị</option>
+                    <option value="hue">Huế</option>
+                </select> <br>
+                
+                <label for="address">Địa Chỉ : </label>
+                <input type="text" name="address"> <br>
+
+                <label for="phone">Số Điện Thoại : </label>
+                <input type="text" name="phone"> <br>
+                
+                <label for="note">Ghi chú ( nếu có ) : </label>
+                <textarea name="note"></textarea> <br>
+
+                <button type="submit">Đăng Ký</button>
+                <br>
+                <span> <i>* Vui lòng điền đầy đủ và đúng thông tin</i></span>
+            </form>
+            <br>
+            <hr>
+        </div>
+
+        <div>
+            <h4>Danh sách một số tỉnh đã có ca nhiễm COVID-19</h4>
+            <table>
+                <thead>
+                  <tr>
+                    <th>Tên tỉnh</th>
+                    <th>Ca nhiễm</th>
+                    <th>Hôm Nay</th>
+                    <th>Tử Vong</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>TP Hồ Chí Minh</td>
+                    <td>135.224</td>
+                    <td>+2.318</td>
+                    <td>3.582</td>
+                  </tr>
+                  <tr>
+                    <td>Bình Dương</td>
+                    <td>34.648</td>
+                    <td>+911</td>
+                    <td>242</td>
+                  </tr>
+                  <tr>
+                    <td>Long An</td>
+                    <td>12.609</td>
+                    <td>+354</td>
+                    <td>134</td>
+                  </tr>
+                  <tr>
+                    <td>Đồng Nai</td>
+                    <td>10.694</td>
+                    <td>+428</td>
+                    <td>87</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td>Tổng Cộng</td>
+                    <td>193.275</td>
+                    <td>4011</td>
+                    <td>4045</td>
+                  </tr>
+                </tfoot>
+              </table>
+              <p>* Cập nhật vào lúc  <time>10:12</time>  hằng ngày.</p>
+        </div>
+
+        <div>
+            <iframe src="https://monstar-lab.com/global/" width="100%" height="350px"></iframe>
+        </div>
+        
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">Trang Chủ</a></li>
+            <li><a href="#">Đăng Ký</a></li>
+            <li><a href="#">Đăng Nhập</a></li>
+            <li><a href="#">Liên Hệ</a></li>
+        </ul>
+        <p>&copy;2021 tuan.cao@support.com</p>
+    </footer>
+</body>
+</html>
