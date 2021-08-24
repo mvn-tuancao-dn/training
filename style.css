@@ -3,35 +3,33 @@
     padding: 0;
   }
 .container {
-    width: 85%;
+    max-width: 100%;
     margin: 0 auto;
 }
 /* page-header */
 
-.page-header{
+.page-header {
     margin: 0 auto;
     background-color: #ff6f61;
     text-align: center;
     font-size: 18px;
   }
 
-.header-menu > .menu-list{
+.header-menu > .menu-list {
     list-style: none;
     padding: 15px;
 }
-.menu-list > .menu-item{
+.menu-list > .menu-item {
     display: inline-block;
     padding: 0 10px;
 }
-.menu-list .menu-item > a{
+.menu-list .menu-item > a {
     color: #fff;
 }
-.menu-list .menu-item > a:hover{
+.menu-list .menu-item > a:hover {
     color: black;
 }
-a{
-    text-decoration: none;
-}
+
 
 /* crumbs */
 .crumbs{
@@ -39,7 +37,7 @@ a{
     padding: 10px 16px;
 }
 .crumb-list {
-    list-style-type: none;
+    /* list-style-type: none; */
     padding-left: 0;
 }
 

@@ -64,9 +64,7 @@ a img {
 .header-top {
     border-bottom: 1px solid #80808061;
 }
-.page-header {
-    background-color: #fff;
-}
+
 .list-language {
     line-height: 60px;
     display: inline-block;
@@ -160,17 +158,17 @@ a img {
 .btn-outline {
     border-radius: 50px;
     text-transform: uppercase;
-    padding: 19px 50px 21px;
+    padding: 20px 50px;
     font-size: 16px;
     line-height: 1;
     border: 1px solid #333;
     margin-left: 50px;
-    transition: 0.4s;
+    transition: .4s;
 }  
 .btn-outline:hover {
     background-color: #a749ff;
     color: #fff;
-    border: 0.5px solid #333;
+    border: .5px solid #333;
 }
 .carousel-btn-action {
     position: absolute;
@@ -219,7 +217,7 @@ a img {
 .product-name a {
     font-size: 16px;
     color: #000;
-    transition: 0.4s;
+    transition: .4s;
 }
 .product-name a:hover {
     color: #a749ff;
@@ -229,14 +227,13 @@ a img {
 
 .section-product-types {
     margin-top: 55px;
-    width: 100%;
-}
-.product-types-list {
-    width: 100%;
 }
 .product-types-list .product-types-item {
     width: 50%;
     position: relative;
+}
+.product-types-item img {
+    vertical-align: middle;
 }
 .product-types-list .product-types-item:first-child {
     display: inline-block;
@@ -271,7 +268,7 @@ a img {
     border: 2px solid rgb(228 81 81 / 58%);
     border-radius: 50%;
     padding: 8px;
-    transition: 0.4s;
+    transition: .4s;
 }
 .product-types-item-infor .btn-here i:hover{
     border: 2px solid black;
@@ -280,7 +277,6 @@ a img {
 /* section-daily-deal */
 
 .section-daily-deals {
-    position: relative;
     margin-top: 50px;
     padding-bottom: 65px;
     padding-top: 70px;
@@ -290,8 +286,9 @@ a img {
     font-size: 45px;
     margin-bottom: 35px;
 }
-.tag-list span {
+.tag-list li {
     margin: 0 25px;
+    display: inline-block;
 }
 .tag-list a {
     font-size: 20px;
@@ -330,10 +327,14 @@ a img {
 }
 .deals-product-infor {
     margin-top: 20px;
-    line-height: 30px;
+    /* line-height: 30px; */
 }
 .deals-product-title {
     font-size: 18px;
+    margin: 20px 0;
+}
+.deals-raiting {
+    margin: 15px 0;
 }
 .deals-product-title:hover {
     color: #a749ff;
@@ -354,9 +355,9 @@ a img {
     position: absolute;
     background-color: #a749ff;
     padding: 15px 0;
-    top: 67%;
+    top: 72%;
     opacity: 0;
-    transition: 0.4;
+    transition: .4s;
 }
 .fa-cart-plus {
     margin-right: 10px;
@@ -379,12 +380,11 @@ a img {
     position: absolute;
     top: 0;
     align-items: center;
+    margin: 25px 0;
 }
 .service-list .service-item {
     display: inline-block;
     padding: 30px 77px 30px;
-    margin-bottom: 10px;
-    margin-top: 25px;
     line-height: 30px;
     margin-left: 10px;
 }
@@ -422,15 +422,17 @@ a img {
 .time-countdown ul:first-child {
     margin-bottom: 20px;
 }
-.time-countdown  ul:last-child {
-    margin-bottom: 60px;
-}
-.time-countdown li{
+.time-countdown-item {
     font-size: 42px;
     display: inline-block;
     min-width: 75px;
-    margin: 0 32px;
+    margin: 0 20px;
     color: #555;
+}
+.time-countdown-item p:last-child {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 30px 20px;
 }
 .time-countdown .btn-primary {
     margin-top: 20px;
@@ -438,10 +440,6 @@ a img {
 .time-deals-of-day {
     text-align: center;
     margin-top: 110px;
-}
-.time-labels li {
-    text-transform: uppercase;
-    font-size: 20px;
 }
 .time-countdown {
     margin-top: 30px;
@@ -496,6 +494,10 @@ a img {
     margin: 0;
     color: #696969;
 }
+.section-newsletter form {
+    max-width: 45%;
+    margin: 0 auto;
+}
 .section-newsletter form input {
     height: 46px;
     text-align: center;
@@ -503,7 +505,7 @@ a img {
     border: none;
     border-bottom: 2px solid #e2e2e2;
     background: transparent;
-    width: 48%;
+    width: 100%;
     margin-top: 20px;
 }
 .section-newsletter form input:focus {
@@ -527,7 +529,6 @@ a img {
 
 /* page-footer */
 .page-footer {
-    position: relative;
     background-color: #f6f6f8;
     padding-top: 100px;
     padding-bottom: 70px;
