@@ -1,0 +1,188 @@
+@media (max-width: 1024px) {
+    .header-bottom .logo {
+        width: 17%;
+    }
+    .header-bottom .header-nav {
+        width: 55%;
+    }
+    .header-bottom .header-infor-cart{
+        width: 28%;
+    }
+    .header-menu li {
+        padding: 0 10px;
+    }
+    .header-infor-cart li {
+        padding: 0 10px;
+
+    }
+    .time-countdown-item {
+        margin: 0 3px;
+        font-size: 30px;
+    }
+    .daily-deals-product-list .col-3{
+        width: 33%;
+    }
+    .carousels-infor h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .item-background {
+        height: 500px;
+    }
+}
+@media(max-width : 995px) {
+    .page-main {
+        overflow: hidden;
+    }
+    .header-top {
+        display: none;
+    }
+    .header-pc {
+        display: none;
+    }
+    .header-mobie {
+        display: block;
+        position: fixed;
+        top: 0;
+        z-index: 2222;
+        left: 0;
+        right: 0;
+        background: #fff;
+    }
+    .header-mobie-wrap {
+        padding: 30px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-mobie-wrap .header-mobie-right {
+        display: flex;
+        align-items: center;
+    }
+    .header-mobie-wrap .header-mobie-right li {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    .section-carousels {
+        margin-top: 90px;
+    }
+    .daily-deals-product-list .col-3 {
+        width: 50%;
+    }
+    .page-footer .row {
+        flex-wrap: wrap;
+    }
+    .page-footer .col-2 {
+        width: 33%;
+    }
+    .page-footer .col-4 p br {
+        display: none;
+    }
+    .page-footer .col-4 {
+        width: 66.6666667%;
+    }
+    .section-time-deals .row {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .section-time-deals .row .time-deals-of-day {
+        width: 70%;
+        margin-top: 0;
+    }
+    .section-time-deals .row img {
+        width: 30%;
+    }
+    .product-types-item img {
+        height: 140px;
+    }
+    .product-types-item-infor {
+        line-height: 39px;
+    }
+    .carousels-infor {
+        left: 0;
+        text-align: center;
+    }
+    .carousels-infor .carousel-title, .btn-outline {
+        margin-left: 0;
+    }
+    .carousels-infor h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .service-list .service-item {
+        width: 48%;
+        margin-bottom: 10px;
+    }
+    .section-newsletter form {
+        max-width: 80%;
+    }
+}
+@media(max-width : 480px){
+    .daily-deals-product-list .col-3 {
+        width: 100%;
+    }
+    .service-list .service-item {
+        width: 95%;
+        margin-left: 0;
+    }
+    .page-footer .col-2, .col-4 {
+        width: 100%;
+    }
+    .page-footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .page-footer .row {
+        flex-wrap: wrap;
+    }
+    .section-carousel-review {
+        margin: 0 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .carousels-review-list .carousel-review-item p br {
+        display: none;
+    }
+    .section-newsletter form {
+        max-width: 100%;
+    }
+    .section-time-deals .row {
+        flex-wrap: wrap;
+        flex-direction : column-reverse;
+    }
+    .section-time-deals .row .time-deals-of-day {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .section-time-deals .row img {
+        width: 100%;
+    }
+    .time-countdown-item p:last-child {
+        margin:  25px 5px;
+        font-size: 16px;
+    }
+    .time-countdown-item {
+        font-size: 23px;
+        min-width: 0;
+    }
+    .product-carousel-item {
+        width: 100%;
+        display: none;
+    }
+    .product-carousel-item:first-child {
+        display: block;
+    }
+    .product-types-list .product-types-item {
+        width: 100%;
+    }
+    .product-types-list .product-types-item:first-child {
+        margin-bottom: 30px;
+    }
+    .daily-deals-title {
+        margin-top: 120px;
+    }
+    .tag-list li:last-child {
+        margin-top: 20px;
+    }
+}

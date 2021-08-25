@@ -6,27 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Training FE 2</title>
     <link rel="stylesheet" href="stylelayout.css">
+    <link rel="stylesheet" href="response.css">
     <script src="https://kit.fontawesome.com/ccd4eab307.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="page-header">
         <div class="header-top">
             <div class="container">
-                <ul class="list-language">
-                    <li><a href="#">English <i class="fas fa-chevron-down"></i></a></li>
-                    <li><a href="#">EUR <i class="fas fa-chevron-down"></i></a></li>
-                    <li><a href="#">Call Us 396 5410</a></li>
-                </ul>
-                <span class="free-delivery">Free delivery on order over <strong>$200</strong></span>
+                <div class="header-top-content">
+                    <ul class="list-language">
+                        <li><a href="#">English <i class="fas fa-chevron-down"></i></a></li>
+                        <li><a href="#">EUR <i class="fas fa-chevron-down"></i></a></li>
+                        <li><a href="#">Call Us 396 5410</a></li>
+                    </ul>
+                    <span class="free-delivery">Free delivery on order over <strong>$200</strong></span>
+                </div>
             </div>
         </div> <!-- end header-top -->
-        <div class="header-bottom">
+        <div class="header-bottom header-pc">
             <div class="container">
-                <div class="row">
-                    <a href="#" class="logo col-3">
+                <div class="row header_wrap">
+                    <a href="#" class="logo">
                         <img src="img/logo.png" alt="Logo">
                     </a>
-                    <nav class="header-nav col-6">
+                    <nav class="header-nav">
                         <ul class="header-menu">
                             <li><a href="#">Home<i class="fas fa-chevron-down"></i></a></li>
                             <li><a href="#">Shop<i class="fas fa-chevron-down"></i></a></li>
@@ -36,7 +40,7 @@
                             <li><a href="#">Contact Us</a></li>
                         </ul>
                     </nav>
-                    <ul class="header-infor-cart col-3">
+                    <ul class="header-infor-cart">
                         <li class="header-infor-cart-item"><i class="fas fa-search"></i></li>
                         <li class="header-infor-cart-item"><i class="far fa-user"></i></i></li>
                         <li class="header-infor-cart-item"><a href="#"><i class="fas fa-random"></i></a></li>
@@ -47,12 +51,29 @@
             </div>
         </div> <!-- end header-bottom -->
         
+
+        <!-- header-mobie  -->
+        <div class="header-mobie container">
+            <div class="header-mobie-wrap">
+                <div class="header-mobie-left">
+                    <a href="#" class="logo">
+                        <img src="img/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <ul class="header-mobie-right">
+                    <li class="header-infor-cart-item"><a href="#"><i class="fas fa-random"></i></a></li>
+                    <li class="header-infor-cart-item"><a href="#"><i class="far fa-heart"></i></a></li>
+                    <li class="header-infor-cart-item"><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+                    <li class="header-infor-cart-item"><a href="#"><i class="fas fa-bars"></i></a></li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main class="page-main">
         <section class="section-carousels">
             <ul class="carousels-list">
-                <li class="carousel-item">
-                    <img src="img/slider-14.jpg" alt="alt carousels 1">
+                <li class="carousel-item item-background" style="background-image: url('img/slider-14.jpg');">
+                    <!-- <img src="img/slider-14.jpg" alt="alt carousels 1"> -->
 
                     <div class="carousels-infor">
                         <h4 class="carousel-title">2020 Laster Collection</h4>
@@ -393,10 +414,9 @@
             </div>
         </section> <!-- end section-daily-deals -->
 
-        <section class="section-service">
-            <img src="img/shape.png" alt="image background">
+        <section class="section-service" style="background-image: url('img/shape.png');">
+            <!-- <img src="img/shape.png" alt="image background"> -->
             
-            <div class="container">
                 <ul class="service-list">
                     <li class="service-item">
                         <h3>Free Shipping</h3>
@@ -411,7 +431,6 @@
                         <p>ON EVERY ORDER OVER $150</p>
                     </li>
                 </ul>
-            </div>
         </section> <!-- end section-banner -->
 
         <section class="section-time-deals">

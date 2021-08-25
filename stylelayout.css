@@ -41,7 +41,6 @@ a img {
 .col-4,
 .col-6,
 .col-2 {
-  float: left;
   padding: 0 15px;
 }
 .col-2 {
@@ -69,9 +68,11 @@ a img {
     line-height: 60px;
     display: inline-block;
 }
-
+.header-top-content {
+    display: flex;
+    justify-content: space-between;
+}
 .free-delivery {
-    float: right;
     line-height: 60px;
 }
 .list-language li {
@@ -81,7 +82,8 @@ a img {
     padding: 0 15px;
 }
 .list-language a {
-    font-size: 17px;
+    font-size: 14px;
+    color: #555252;
 }
 
 .list-language li:first-child{
@@ -98,7 +100,7 @@ a img {
     content: "";
 }
 .free-delivery {
-    font-size: 18px;
+    font-size: 14px;
 }
 .free-delivery strong {
     color: #ff1c1c;
@@ -109,10 +111,16 @@ a img {
 .header-bottom {
     padding: 32px 0;
 }
+.header-menu a {
+    font-size: 15px;
+}
 .header-menu li {
     font-size: 18px;
     display: inline-block;
     padding: 0 15px;
+}
+.header-menu li:first-child {
+    padding: 0;
 }
 .header-menu li a:hover {
     color: #a749ff;
@@ -127,9 +135,23 @@ a img {
 .header-infor-cart-item i {
     font-size: 20px;
 }
-
+.header_wrap{
+    display: flex;
+    align-items: center;
+}
+.header-bottom .logo{
+    width: 25%;
+}
+.header-bottom .header-nav{
+    width: 50%;
+}
+.header-bottom .header-infor-cart{
+    width: 25%;
+}
 /* section-carousels */
-
+.header-mobie{
+    display: none;
+}
 .section-carousels {
     position: relative;
 }
@@ -138,8 +160,9 @@ a img {
 }
 .carousels-infor {
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 20px;
+    transform: translateY(-50%);
 }
 .carousels-infor .carousel-title {
     font-size: 27px;
@@ -198,6 +221,9 @@ a img {
 .section-carousel-products {
     margin-top: 40px;
 }
+.product-carousel-list {
+    display: flex;
+}
 .product-carousel-item {
     text-align: center;
 }
@@ -238,31 +264,30 @@ a img {
 .product-types-list .product-types-item:first-child {
     display: inline-block;
 }
-.product-types-list .product-types-item:last-child {
-    float: right;
+.product-types-list {
+    display: flex;
 }
 .product-types-item-infor {
     position: absolute;
     top: 10%;
-    
+    line-height: 48px;
 }
 .product-types-item:first-child .product-types-item-infor {
     right: 40px;
     text-align: right;
-    line-height: 48px;
+    
 }
 .product-types-item:last-child .product-types-item-infor {
     left: 40px;
     text-align: left;
-    line-height: 48px;
 }
 .product-types-item-infor h2 {
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 500;
     color: #1c1c1c;
 }
 .product-types-item-infor p {
-    font-size: 16px;
+    font-size: 14px;
 }
 .product-types-item-infor .btn-here i{
     border: 2px solid rgb(228 81 81 / 58%);
@@ -294,8 +319,11 @@ a img {
     font-size: 20px;
     color: #000;
 }
-.daily-deals-product-list {
+.daily-deals-product-list  {
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 60px;
+
 }
 .daily-deals-product-item {
     position: relative;
@@ -330,7 +358,7 @@ a img {
     /* line-height: 30px; */
 }
 .deals-product-title {
-    font-size: 18px;
+    font-size: 16px;
     margin: 20px 0;
 }
 .deals-raiting {
@@ -371,22 +399,35 @@ a img {
 }
 
 /* section-banner */
-
+.item-background{
+    height: 700px;
+    background-size: cover;
+    background-position: bottom;
+}
 .section-service {
     position: relative;
     text-align: center;
+    padding: 50px 0;
 }
 .service-list {
-    position: absolute;
-    top: 0;
+    
+   
+    display: flex;
     align-items: center;
-    margin: 25px 0;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .service-list .service-item {
     display: inline-block;
-    padding: 30px 77px 30px;
-    line-height: 30px;
+    padding: 30px 0;
+    /* padding: 30px 77px 30px; */
+    /* line-height: 30px; */
     margin-left: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .service-list .service-item:first-child {
     background-color: rgb(204, 251, 233);
@@ -413,6 +454,9 @@ a img {
 /* section-time-deals */
 .section-time-deals {
     padding: 100px 0;
+}
+.section-time-deals .row {
+    display: flex;
 }
 .time-deals-of-day h2 {
     font-size: 48px;
@@ -533,13 +577,16 @@ a img {
     padding-top: 100px;
     padding-bottom: 70px;
 }
+.page-footer .row {
+    display: flex;
+}
 .footer-logo {
     margin-top: 41px;
     margin-bottom: 12px;
 }
 .footer-col:first-child p {
     letter-spacing: .9px;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 24px;
 }
@@ -555,13 +602,14 @@ a img {
     line-height: 1;
     margin: 0 0 16px;
     color: #313131;
+    font-weight: 600;
 }
 .footer-list-link .footer-item {
     margin: 0 0 11px;
 }
 .footer-list-link .footer-item a {
     letter-spacing: .3px;
-    font-size: 19px;
+    font-size: 14px;
     line-height: 25px;
     color: #5d5d5d;
 }
@@ -574,7 +622,7 @@ a img {
 }
 .footer-col:last-child p {
     letter-spacing: .3px;
-    font-size: 19px;
+    font-size: 14px;
     line-height: 25px;
     color: #5d5d5d;
     margin: 0 0 20px;
