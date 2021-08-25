@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training FE 2</title>
+    <link rel="stylesheet" href="stylelayout.css">
+    <link rel="stylesheet" href="response.css">
+    <script src="https://kit.fontawesome.com/ccd4eab307.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="page-header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-content">
+                    <ul class="list-language">
+                        <li><a href="#">English <i class="fas fa-chevron-down"></i></a></li>
+                        <li><a href="#">EUR <i class="fas fa-chevron-down"></i></a></li>
+                        <li><a href="#">Call Us 396 5410</a></li>
+                    </ul>
+                    <span class="free-delivery">Free delivery on order over <strong>$200</strong></span>
+                </div>
+            </div>
+        </div> <!-- end header-top -->
+        <div class="header-bottom header-pc">
+            <div class="container">
+                <div class="row header_wrap">
+                    <a href="#" class="logo">
+                        <img src="img/logo.png" alt="Logo">
+                    </a>
+                    <nav class="header-nav">
+                        <ul class="header-menu">
+                            <li><a href="#">Home<i class="fas fa-chevron-down"></i></a></li>
+                            <li><a href="#">Shop<i class="fas fa-chevron-down"></i></a></li>
+                            <li><a href="#">Collection</a></li>
+                            <li><a href="#">Pages<i class="fas fa-chevron-down"></i></a></li>
+                            <li><a href="#">Blog<i class="fas fa-chevron-down"></i></a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="header-infor-cart">
+                        <li class="header-infor-cart-item"><i class="fas fa-search"></i></li>
+                        <li class="header-infor-cart-item"><i class="far fa-user"></i></i></li>
+                        <li class="header-infor-cart-item"><a href="#"><i class="fas fa-random"></i></a></li>
+                        <li class="header-infor-cart-item"><a href="#"><i class="far fa-heart"></i></a></li>
+                        <li class="header-infor-cart-item"><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- end header-bottom -->
+        
+
+        <!-- header-mobie  -->
+        <div class="header-mobie container">
+            <div class="header-mobie-wrap">
+                <div class="header-mobie-left">
+                    <a href="#" class="logo">
+                        <img src="img/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <ul class="header-mobie-right">
+                    <li class="header-infor-cart-item"><a href="#"><i class="fas fa-random"></i></a></li>
+                    <li class="header-infor-cart-item"><a href="#"><i class="far fa-heart"></i></a></li>
+                    <li class="header-infor-cart-item"><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+                    <li class="header-infor-cart-item"><a href="#"><i class="fas fa-bars"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="page-main">
+        <section class="section-carousels">
+            <ul class="carousels-list">
+                <li class="carousel-item item-background" style="background-image: url('img/slider-14.jpg');">
+                    <!-- <img src="img/slider-14.jpg" alt="alt carousels 1"> -->
+
+                    <div class="carousels-infor">
+                        <h4 class="carousel-title">2020 Laster Collection</h4>
+                        <h1>-30% Offer All <br> Hand & Made</h1>
+                        <a href="#" class="btn btn-outline">Shop Now</a>
+                    </div>
+                </li>
+                <!-- <li class="carousel-item">
+                    <img src="" alt="alt carousels 2">
+                    
+                    <div class="carousels-infor">
+                        <h4 class="carousel-title">2020 Laster Collection</h4>
+                        <h1>-30% Offer All <br> Hand & Made</h1>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </li> -->
+            </ul>
+            <div class="carousel-btn-action">
+                <button class="btn btn-pre"><i class="fas fa-chevron-left"></i></button>
+                <button class="btn btn-next"><i class="fas fa-chevron-right"></i></button>
+              </div>
+        </section> <!-- end section-carousels -->
+
+        <section class="section-carousel-products">
+            <div class="container">
+                <ul class="product-carousel-list row">
+                    <li class="product-carousel-item col-3">
+                        <img src="img/category1.jpg" alt="Image Product 1">
+                        <p class="product-total">2 Product</p>
+                        <h4 class="product-name"><a href="#">New</a></h4>
+                        <a href="#" class="btn btn-outline">Shop Now</a>
+                    </li>
+                    <li class="product-carousel-item col-3">
+                        <img src="img/category2.jpg" alt="Image Product 2">
+                        <p class="product-total">3 Product</p>
+                        <h4 class="product-name"><a href="#">Best Products</a></h4>
+                        <a href="#" class="btn btn-outline">Shop Now</a>
+                    </li>
+                    <li class="product-carousel-item col-3">
+                        <img src="img/category3.jpg" alt="Image Product 3">
+                        <p class="product-total">8 Product</p>
+                        <h4 class="product-name"><a href="#">Earthenware</a></h4>
+                        <a href="#" class="btn btn-outline">Shop Now</a>
+                    </li>
+                    <li class="product-carousel-item col-3">
+                        <img src="img/category4.jpg" alt="Image Product 4">
+                        <p class="product-total">6 Product</p>
+                        <h4 class="product-name"><a href="#">Carfts</a></h4>
+                        <a href="#" class="btn btn-outline">Shop Now</a>
+                    </li>
+                </ul>
+            </div>
+        </section>  <!-- end section-carousel-products -->
+
+        <section class="section-product-types">
+            <ul class="product-types-list">
+                <li class="product-types-item">
+                    <img src="img/banner9.jpg" alt="image featured product">
+
+                    <div class="product-types-item-infor">
+                        <h2>Featured Products</h2>
+                        <p>Choose your products here</p>
+                        <a href="#" class="btn btn-here"><i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </li>
+                <li class="product-types-item">
+                    <img src="img/banner10.jpg" alt="image new product">
+
+                    <div class="product-types-item-infor">
+                        <h2>New Products</h2>
+                        <p>Choose your products here</p>
+                        <a href="#" class="btn btn-here"><i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </li>
+            </ul>
+        </section> <!-- end section-product-types -->
+        
+        <section class="section-daily-deals">
+            <div class="container">
+                <h2 class="daily-deals-title">Daily Deals</h2>
+               
+                <ul class="tag-list">
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">Sale Items</a></li>
+                </ul>
+
+                <ul class="daily-deals-product-list row">
+                    <li class="daily-deals-product-item col-3">
+                        <img src="img/1.jpg" alt="image product deals 1">
+
+                        <div class="deals-sales">
+                            <span class="deals-sale">-10%</span>
+                            <span class="deals-new">New</span>
+                        </div>
+
+                        <div class="product-action">
+                            <button class="btn btn-heart"><i class="far fa-heart"></i></button>
+                            <button class="btn btn-cart"><i class="fas fa-cart-plus"></i>Add To Cart</button>
+                            <button class="btn btn-view"><i class="far fa-eye"></i></button>
+                        </div>
+
+                        <div class="deals-product-infor">
+                            <h4 class="deals-product-title"><a href="#">Lorem ipsum handmade eight</a></h4>
+
+                            <div class="deals-raiting">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
+                            <div class="deals-product-price">
+                                <span class="deals-price-sale">$6.4</span> -
+                                <span class="deals-price-old">$200</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="daily-deals-product-item col-3">
+                        <img src="img/2.jpg" alt="image product deals 1">
+
+                        <div class="deals-sales">
+                            <span class="deals-sale">-10%</span>
+                            <span class="deals-new">New</span>
+                        </div>
+
+                        <div class="product-action">
+                            <button class="btn btn-heart"><i class="far fa-heart"></i></button>
+                            <button class="btn btn-cart"><i class="fas fa-cart-plus"></i>Add To Cart</button>
+                            <button class="btn btn-view"><i class="far fa-eye"></i></button>
+                        </div>
+
+                        <div class="deals-product-infor">
+                            <h4 class="deals-product-title"><a href="#">Lorem ipsum handmade eight</a></h4>
+
+                            <div class="deals-raiting">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
+                            <div class="deals-product-price">
+                                <span class="deals-price-sale">$17.1</span> -
+                                <span class="deals-price-old">$19</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="daily-deals-product-item col-3">
+                        <img src="img/3.jpg" alt="image product deals 1">
+
+                        <div class="deals-sales">
+                            <span class="deals-sale">-10%</span>
+                            <span class="deals-new">New</span>
+                        </div>
+
+                        <div class="product-action">
+                            <button class="btn btn-heart"><i class="far fa-heart"></i></button>
+                            <button class="btn btn-cart"><i class="fas fa-cart-plus"></i>Add To Cart</button>
+                            <button class="btn btn-view"><i class="far fa-eye"></i></button>
+                        </div>
+
+                        <div class="deals-product-infor">
+                            <h4 class="deals-product-title"><a href="#">Lorem ipsum handmade eight</a></h4>
+
+                            <div class="deals-raiting">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
+                            <div class="deals-product-price">
+                                <span class="deals-price-sale">$17.1</span> -
+                                <span class="deals-price-old">$19</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="daily-deals-product-item col-3">
+                        <img src="img/4.jpg" alt="image product deals 1">
+
+                        <div class="deals-sales">
+                            <span class="deals-sale">-10%</span>
+                            <span class="deals-new">New</span>
+                        </div>
+
+                        <div class="product-action">
+                            <button class="btn btn-heart"><i class="far fa-heart"></i></button>
+                            <button class="btn btn-cart"><i class="fas fa-cart-plus"></i>Add To Cart</button>
+                            <button class="btn btn-view"><i class="far fa-eye"></i></button>
+                        </div>
+
+                        <div class="deals-product-infor">
+                            <h4 class="deals-product-title"><a href="#">Lorem ipsum handmade eight</a></h4>
+
+                            <div class="deals-raiting">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
+                            <div class="deals-product-price">
+                                <span class="deals-price-sale">$17.1</span> -
+                                <span class="deals-price-old">$19</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="daily-deals-product-item col-3">
+                        <img src="img/4.jpg" alt="image product deals 1">
+
+                        <div class="deals-sales">
+                            <span class="deals-sale">-10%</span>
+                            <span class="deals-new">New</span>
+                        </div>
+
+                        <div class="product-action">
+                            <button class="btn btn-heart"><i class="far fa-heart"></i></button>
+                            <button class="btn btn-cart"><i class="fas fa-cart-plus"></i>Add To Cart</button>
+                            <button class="btn btn-view"><i class="far fa-eye"></i></button>
+                        </div>
+                        
+                        <div class="deals-product-infor">
+                            <h4 class="deals-product-title"><a href="#">Lorem ipsum handmade eight</a></h4>
+
+                            <div class="deals-raiting">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
+                            <div class="deals-product-price">
+                                <span class="deals-price-sale">$17.1</span> -
+                                <span class="deals-price-old">$19</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="daily-deals-product-item col-3">
+                        <img src="img/4.jpg" alt="image product deals 1">
+
+                        <div class="deals-sales">
+                            <span class="deals-sale">-10%</span>
+                            <span class="deals-new">New</span>
+                        </div>
+
+                        <div class="product-action">
+                            <button class="btn btn-heart"><i class="far fa-heart"></i></button>
+                            <button class="btn btn-cart"><i class="fas fa-cart-plus"></i>Add To Cart</button>
+                            <button class="btn btn-view"><i class="far fa-eye"></i></button>
+                        </div>
+                        
+                        <div class="deals-product-infor">
+                            <h4 class="deals-product-title"><a href="#">Lorem ipsum handmade eight</a></h4>
+
+                            <div class="deals-raiting">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
+                            <div class="deals-product-price">
+                                <span class="deals-price-sale">$17.1</span> -
+                                <span class="deals-price-old">$19</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="daily-deals-product-item col-3">
+                        <img src="img/4.jpg" alt="image product deals 1">
+
+                        <div class="deals-sales">
+                            <span class="deals-sale">-10%</span>
+                            <span class="deals-new">New</span>
+                        </div>
+
+                        <div class="product-action">
+                            <button class="btn btn-heart"><i class="far fa-heart"></i></button>
+                            <button class="btn btn-cart"><i class="fas fa-cart-plus"></i>Add To Cart</button>
+                            <button class="btn btn-view"><i class="far fa-eye"></i></button>
+                        </div>
+                        
+                        <div class="deals-product-infor">
+                            <h4 class="deals-product-title"><a href="#">Lorem ipsum handmade eight</a></h4>
+
+                            <div class="deals-raiting">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
+                            <div class="deals-product-price">
+                                <span class="deals-price-sale">$17.1</span> -
+                                <span class="deals-price-old">$19</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="daily-deals-product-item col-3">
+                        <img src="img/4.jpg" alt="image product deals 1">
+
+                        <div class="deals-sales">
+                            <span class="deals-sale">-10%</span>
+                            <span class="deals-new">New</span>
+                        </div>
+
+                        <div class="product-action">
+                            <button class="btn btn-heart"><i class="far fa-heart"></i></button>
+                            <button class="btn btn-cart"><i class="fas fa-cart-plus"></i>Add To Cart</button>
+                            <button class="btn btn-view"><i class="far fa-eye"></i></button>
+                        </div>
+                        
+                        <div class="deals-product-infor">
+                            <h4 class="deals-product-title"><a href="#">Lorem ipsum handmade eight</a></h4>
+
+                            <div class="deals-raiting">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
+                            <div class="deals-product-price">
+                                <span class="deals-price-sale">$17.1</span> -
+                                <span class="deals-price-old">$19</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section> <!-- end section-daily-deals -->
+
+        <section class="section-service" style="background-image: url('img/shape.png');">
+            <!-- <img src="img/shape.png" alt="image background"> -->
+            
+                <ul class="service-list">
+                    <li class="service-item">
+                        <h3>Free Shipping</h3>
+                        <p>FREE SHIPPING ON ALL ORDER</p>
+                    </li>
+                    <li class="service-item">
+                        <h3>Money Return</h3>
+                        <p>BACK GUARANTEE UNDER 5 DAYS</p>
+                    </li>
+                    <li class="service-item">
+                        <h3>Member Discound</h3>
+                        <p>ON EVERY ORDER OVER $150</p>
+                    </li>
+                </ul>
+        </section> <!-- end section-banner -->
+
+        <section class="section-time-deals">
+            <div class="container">
+                <div class="row">
+                    <img src="img/deal-3.png" alt="image time deals" class="col-6">
+
+                    <div class="time-deals-of-day col-6">
+                        <h2>Deal of the day</h2>
+
+                        <div class="time-countdown">
+                            <ul class="time-countdown-list">
+                                <li class="time-countdown-item">
+                                    <p>89</p>
+                                    <p>Days</p>
+                                </li>
+                                <li class="time-countdown-item">
+                                    <p>12</p>
+                                    <p>Hours</p>
+                                </li>
+                                <li class="time-countdown-item">
+                                    <p>09</p>
+                                    <p>Minutes</p>
+                                </li>
+                                <li class="time-countdown-item">
+                                    <p>20</p>
+                                    <p>Secs</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section> <!-- end section-time-deals -->
+
+        <section class="section-carousel-review">
+            <div class="container">
+                <ul class="carousels-review-list">
+                    <li class="carousel-review-item">
+                        <img src="img/testi-1.png" alt="alt carousels 1">
+    
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perspiciatis <br>
+                            atque laborum aliquid, dolorum recusandae facere, voluptatum debitis veritatis <br>
+                            assumenda iure natus maiores fugit ullam delectus minus hic necessitatibus <br>
+                            reiciendis.
+                        </p>
+    
+                        <i class="fas fa-map-signs"></i>
+    
+                        <h4 class="review-username">GRACE ALVARADO</h4>
+                        
+                        <span class="review-position">Customer</span>
+                    </li>
+                    <!-- <li class="carousel-item">
+                        <img src="" alt="alt carousels 2">
+    
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perspiciatis <br>
+                            atque laborum aliquid, dolorum recusandae facere, voluptatum debitis veritatis <br>
+                            assumenda iure natus maiores fugit ullam delectus minus hic necessitatibus <br>
+                            reiciendis.
+                        </p>
+    
+                        <i class="icon icon-review"></i>
+    
+                        <h4 class="review-username">JONE DOE</h4>
+                        
+                        <p class="review-position">Customer</p>
+                    </li> -->
+                </ul>
+            </div>
+        </section> <!-- end section-review-user -->
+
+        <section class="section-newsletter">
+            <div class="container">
+                <h2 class="title-join-with-us">Join With Us!</h2>
+
+                <p>Subscribe to our newsletter to receive news on update</p>
+
+                <form action="" method="POST">
+                    <input type="email" placeholder="Your Email Address"> <br>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </section> <!-- end section-newsletter -->
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-2">
+                    <img src="img/logo.png" alt="image Logo" class="footer-logo">
+                    <p>&copy; 2022 <a href="#">Flone. </a><br>
+                    All Rights Reserved</p>
+                </div>
+
+                <div class="footer-col col-2">
+                    <h3 class="footer-link-title">ABOUT US</h3>
+                    <ul class="footer-list-link">
+                        <li class="footer-item"><a href="#">About us</a></li>
+                        <li class="footer-item"><a href="#">Store location</a></li>
+                        <li class="footer-item"><a href="#">Contact</a></li>
+                        <li class="footer-item"><a href="#">Orders tracking</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col col-2">
+                    <h3 class="footer-link-title">USEFUL LINKS</h3>
+                    <ul class="footer-list-link">
+                        <li class="footer-item"><a href="#">Returns</a></li>
+                        <li class="footer-item"><a href="#">Support Policy</a></li>
+                        <li class="footer-item"><a href="#">Size guide</a></li>
+                        <li class="footer-item"><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col col-2">
+                    <h3 class="footer-link-title">FOLLOW US</h3>
+                    <ul class="footer-list-link">
+                        <li class="footer-item"><a href="#">Facebook</a></li>
+                        <li class="footer-item"><a href="#">Twitter</a></li>
+                        <li class="footer-item"><a href="#">Instagram</a></li>
+                        <li class="footer-item"><a href="#">Youtube</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col col-4">
+                    <h3 class="footer-link-title">SUBSCRIBE</h3>
+                    <p>Get E-mail updates about our latest shop <br> and special offers.</p>
+                    <form action="" method="POST">
+                        <input type="email" placeholder="Enter your email address">
+                        <button type="submit">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+</body>
+</html>
